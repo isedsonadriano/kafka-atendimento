@@ -1,0 +1,18 @@
+{
+    "type": "record",
+    "name": "Cotacao",
+    "namespace": "br.com.isedsonadriano.core.domain",
+    "fields": [
+        {
+            "name": "idAtendimento",
+            "type": "string"
+        },
+        {
+            "name": "servicos",
+            "type": {
+                "type": "array",
+                "items": "string"
+            }
+        }
+    ]
+}
