@@ -9,7 +9,7 @@
 * Kafkrop;
 * Zoopeeper;
 * Rest-proxy;
-* OBS: Os serviços que a aplicação utilizam sobem no docker-compose; 
+* OBS: Os serviços que a aplicação utiliza sobem no docker-compose; 
 
 
 
