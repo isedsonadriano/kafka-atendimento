@@ -1,0 +1,12 @@
+{
+	"prestador": "Hospital Prontonorte",
+	"medico": "João Macedo Júnior",
+	"paciente": "Edson Adriano Pereira Landim",
+	"tipoAtendimento": "INTERNACAO",
+	"servicos": [
+		"Consulta em pronto socorro",
+		"Glicose",
+		"Diaria de apartamento",
+		"Material especial para o Joelho"
+	]
+}
