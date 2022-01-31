@@ -16,7 +16,7 @@ public class CotacaoProducerImpl implements CotacaoProducer {
 	@Autowired
 	private KafkaTemplate<String, Cotacao> kafkaTemplate;
 
-	@Value("${topic.name}")
+	@Value("${topico}")
 	private String topico;
 	
 	@Override
