@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 @AllArgsConstructor
 public class CotacaoConsumer {
 
-    @KafkaListener(topics = "${topic.name}")
+    @KafkaListener(topics = "${topico}")
     public void consumer(ConsumerRecord<String, Cotacao> record, Acknowledgment ack) {
 
     	Cotacao cotacao = record.value();

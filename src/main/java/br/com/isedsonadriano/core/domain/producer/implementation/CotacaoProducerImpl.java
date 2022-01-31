@@ -17,11 +17,11 @@ public class CotacaoProducerImpl implements CotacaoProducer {
 	private KafkaTemplate<String, Cotacao> kafkaTemplate;
 
 	@Value("${topic.name}")
-	private String topicName;
+	private String topico;
 	
 	@Override
-	public void enviar(Cotacao people) {
-		kafkaTemplate.send(this.topicName, people).addCallback(
+	public void enviar(Cotacao cotacao) {
+		kafkaTemplate.send(this.topico, cotacao).addCallback(
 				success -> log.info("mensagem enviada com sucesso"),
 				failure -> log.error("Falha ao enviar mensagem!"));
 	}
