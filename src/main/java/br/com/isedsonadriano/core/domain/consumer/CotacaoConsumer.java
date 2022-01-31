@@ -1,4 +1,4 @@
-package br.com.isedsonadriano.consumer;
+package br.com.isedsonadriano.core.domain.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;

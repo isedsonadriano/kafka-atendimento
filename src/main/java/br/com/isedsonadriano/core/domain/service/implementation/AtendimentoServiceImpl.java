@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import br.com.isedsonadriano.core.domain.Cotacao;
 import br.com.isedsonadriano.core.domain.entity.Atendimento;
+import br.com.isedsonadriano.core.domain.producer.CotacaoProducer;
 import br.com.isedsonadriano.core.domain.service.AtendimentoService;
 import br.com.isedsonadriano.infra.repository.AtendimentoRepository;
-import br.com.isedsonadriano.producer.CotacaoProducer;
 
 public class AtendimentoServiceImpl implements AtendimentoService {
 

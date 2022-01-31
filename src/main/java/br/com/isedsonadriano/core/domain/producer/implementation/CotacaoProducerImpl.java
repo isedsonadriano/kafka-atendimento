@@ -1,11 +1,11 @@
-package br.com.isedsonadriano.producer.implementation;
+package br.com.isedsonadriano.core.domain.producer.implementation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 
 import br.com.isedsonadriano.core.domain.Cotacao;
-import br.com.isedsonadriano.producer.CotacaoProducer;
+import br.com.isedsonadriano.core.domain.producer.CotacaoProducer;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

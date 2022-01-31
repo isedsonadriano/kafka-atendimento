@@ -1,4 +1,4 @@
-package br.com.isedsonadriano.producer;
+package br.com.isedsonadriano.core.domain.producer;
 
 import br.com.isedsonadriano.core.domain.Cotacao;
 
